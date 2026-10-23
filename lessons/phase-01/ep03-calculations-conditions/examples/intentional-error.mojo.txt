@@ -1,0 +1,7 @@
+def main():
+    var temperature: Int = 30
+    var threshold: Int = 30
+    if temperature > threshold:
+        print("Status: WARNING")
+    else:
+        print("Status: OK")

@@ -1,0 +1,5 @@
+def main():
+    var sample_count: Int = 3
+    print(sample_count)
+    sample_count = "three"
+    print(sample_count)

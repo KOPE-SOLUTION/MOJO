@@ -1,0 +1,2 @@
+# Install in Linux/WSL or supported macOS.
+mojo==1.2.0

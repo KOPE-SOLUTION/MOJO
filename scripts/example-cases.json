@@ -1,0 +1,208 @@
+[
+  {
+    "name": "EP1 step 1",
+    "path": "lessons/phase-01/ep01-hello-mojo/examples/step-1.mojo",
+    "expected": "Hello, Mojo!\n",
+    "exit": "success"
+  },
+  {
+    "name": "EP1 step 2",
+    "path": "lessons/phase-01/ep01-hello-mojo/examples/step-2.mojo",
+    "expected": "Hello, Mojo!\nDataset: demo-01\n",
+    "exit": "success"
+  },
+  {
+    "name": "EP1 step 3",
+    "path": "lessons/phase-01/ep01-hello-mojo/examples/step-3.mojo",
+    "expected": "Hello, Mojo!\nDataset: demo-01\nStatus: ready\n",
+    "exit": "success"
+  },
+  {
+    "name": "EP1 final",
+    "path": "lessons/phase-01/ep01-hello-mojo/main.mojo",
+    "expected": "Hello, Mojo!\nDataset: demo-01\nStatus: ready\n",
+    "exit": "success"
+  },
+  {
+    "name": "EP1 intentional error",
+    "path": "lessons/phase-01/ep01-hello-mojo/examples/intentional-error.mojo.txt",
+    "expected": null,
+    "exit": "failure",
+    "diagnostic": "Print"
+  },
+  {
+    "name": "EP1 exercise 1",
+    "path": "lessons/phase-01/ep01-hello-mojo/solutions/exercise-1.mojo",
+    "expected": "Hello, Mojo!\nDataset: demo-02\nStatus: waiting\n",
+    "exit": "success"
+  },
+  {
+    "name": "EP1 exercise 2",
+    "path": "lessons/phase-01/ep01-hello-mojo/solutions/exercise-2.mojo",
+    "expected": "Hello, Mojo!\nDataset: demo-01\nStatus: ready\nAuthor: learner\n",
+    "exit": "success"
+  },
+  {
+    "name": "EP2 step 1",
+    "path": "lessons/phase-01/ep02-variables-types/examples/step-1.mojo",
+    "expected": "Samples: 3\n",
+    "exit": "success"
+  },
+  {
+    "name": "EP2 step 2",
+    "path": "lessons/phase-01/ep02-variables-types/examples/step-2.mojo",
+    "expected": "Before: 3\nAfter: 5\n",
+    "exit": "success"
+  },
+  {
+    "name": "EP2 step 3",
+    "path": "lessons/phase-01/ep02-variables-types/examples/step-3.mojo",
+    "expected": "Dataset: demo-01\nSamples: 3\nTemperature: 28.5\n",
+    "exit": "success"
+  },
+  {
+    "name": "EP2 final",
+    "path": "lessons/phase-01/ep02-variables-types/main.mojo",
+    "expected": "Dataset: demo-01\nSamples: 3\nTemperature: 28.5\n",
+    "exit": "success"
+  },
+  {
+    "name": "EP2 intentional error",
+    "path": "lessons/phase-01/ep02-variables-types/examples/intentional-error.mojo.txt",
+    "expected": null,
+    "exit": "failure",
+    "diagnostic": "Int"
+  },
+  {
+    "name": "EP2 exercise 1",
+    "path": "lessons/phase-01/ep02-variables-types/solutions/exercise-1.mojo",
+    "expected": "Before: 10\nAfter: 12\n",
+    "exit": "success"
+  },
+  {
+    "name": "EP2 exercise 2",
+    "path": "lessons/phase-01/ep02-variables-types/solutions/exercise-2.mojo",
+    "expected": "Dataset: demo-02\nTemperature: 30.5\n",
+    "exit": "success"
+  },
+  {
+    "name": "EP3 step 1",
+    "path": "lessons/phase-01/ep03-calculations-conditions/examples/step-1.mojo",
+    "expected": "First: 14\nSecond: 20\n",
+    "exit": "success"
+  },
+  {
+    "name": "EP3 step 2",
+    "path": "lessons/phase-01/ep03-calculations-conditions/examples/step-2.mojo",
+    "expected": "Temperature: 30\nStatus: WARNING\n",
+    "exit": "success"
+  },
+  {
+    "name": "EP3 step 3",
+    "path": "lessons/phase-01/ep03-calculations-conditions/examples/step-3.mojo",
+    "expected": "Temperature: 30\nStatus: WARNING\n",
+    "exit": "success"
+  },
+  {
+    "name": "EP3 final",
+    "path": "lessons/phase-01/ep03-calculations-conditions/main.mojo",
+    "expected": "Temperature: 30\nStatus: WARNING\n",
+    "exit": "success"
+  },
+  {
+    "name": "EP3 intentional error",
+    "path": "lessons/phase-01/ep03-calculations-conditions/examples/intentional-error.mojo.txt",
+    "expected": "Status: OK\n",
+    "exit": "success"
+  },
+  {
+    "name": "EP3 exercise 1",
+    "path": "lessons/phase-01/ep03-calculations-conditions/solutions/exercise-1.mojo",
+    "expected": "Temperature: -1\nStatus: INVALID\n",
+    "exit": "success"
+  },
+  {
+    "name": "EP3 exercise 2",
+    "path": "lessons/phase-01/ep03-calculations-conditions/solutions/exercise-2.mojo",
+    "expected": "Status: WARNING\n",
+    "exit": "success"
+  },
+  {
+    "name": "EP4 step 1",
+    "path": "lessons/phase-01/ep04-loops/examples/step-1.mojo",
+    "expected": "Total: 10\n",
+    "exit": "success"
+  },
+  {
+    "name": "EP4 step 2",
+    "path": "lessons/phase-01/ep04-loops/examples/step-2.mojo",
+    "expected": "Remaining: 3\nRemaining: 2\nRemaining: 1\nDone\n",
+    "exit": "success"
+  },
+  {
+    "name": "EP4 step 3",
+    "path": "lessons/phase-01/ep04-loops/examples/step-3.mojo",
+    "expected": "Value: 1\nValue: 2\nValue: 4\n",
+    "exit": "success"
+  },
+  {
+    "name": "EP4 final",
+    "path": "lessons/phase-01/ep04-loops/main.mojo",
+    "expected": "Value: 1\nValue: 2\nValue: 4\n",
+    "exit": "success"
+  },
+  {
+    "name": "EP4 intentional error",
+    "path": "lessons/phase-01/ep04-loops/examples/intentional-error.mojo.txt",
+    "expected": "Total: 6\n",
+    "exit": "success"
+  },
+  {
+    "name": "EP4 exercise 1",
+    "path": "lessons/phase-01/ep04-loops/solutions/exercise-1.mojo",
+    "expected": "Total: 15\n",
+    "exit": "success"
+  },
+  {
+    "name": "EP4 exercise 2",
+    "path": "lessons/phase-01/ep04-loops/solutions/exercise-2.mojo",
+    "expected": "Attempt: 1\nAttempt: 2\nAttempt: 3\n",
+    "exit": "success"
+  },
+  {
+    "name": "EP3 boundary -1",
+    "source": "def main():\n    var temperature: Int = -1\n    var threshold: Int = 30\n    print(\"Temperature:\", temperature)\n    if temperature < 0:\n        print(\"Status: INVALID\")\n    elif temperature >= threshold:\n        print(\"Status: WARNING\")\n    else:\n        print(\"Status: OK\")\n",
+    "expected": "Temperature: -1\nStatus: INVALID\n",
+    "exit": "success"
+  },
+  {
+    "name": "EP3 boundary 0",
+    "source": "def main():\n    var temperature: Int = 0\n    var threshold: Int = 30\n    print(\"Temperature:\", temperature)\n    if temperature < 0:\n        print(\"Status: INVALID\")\n    elif temperature >= threshold:\n        print(\"Status: WARNING\")\n    else:\n        print(\"Status: OK\")\n",
+    "expected": "Temperature: 0\nStatus: OK\n",
+    "exit": "success"
+  },
+  {
+    "name": "EP3 boundary 29",
+    "source": "def main():\n    var temperature: Int = 29\n    var threshold: Int = 30\n    print(\"Temperature:\", temperature)\n    if temperature < 0:\n        print(\"Status: INVALID\")\n    elif temperature >= threshold:\n        print(\"Status: WARNING\")\n    else:\n        print(\"Status: OK\")\n",
+    "expected": "Temperature: 29\nStatus: OK\n",
+    "exit": "success"
+  },
+  {
+    "name": "EP3 boundary 30",
+    "source": "def main():\n    var temperature: Int = 30\n    var threshold: Int = 30\n    print(\"Temperature:\", temperature)\n    if temperature < 0:\n        print(\"Status: INVALID\")\n    elif temperature >= threshold:\n        print(\"Status: WARNING\")\n    else:\n        print(\"Status: OK\")\n",
+    "expected": "Temperature: 30\nStatus: WARNING\n",
+    "exit": "success"
+  },
+  {
+    "name": "EP3 boundary 31",
+    "source": "def main():\n    var temperature: Int = 31\n    var threshold: Int = 30\n    print(\"Temperature:\", temperature)\n    if temperature < 0:\n        print(\"Status: INVALID\")\n    elif temperature >= threshold:\n        print(\"Status: WARNING\")\n    else:\n        print(\"Status: OK\")\n",
+    "expected": "Temperature: 31\nStatus: WARNING\n",
+    "exit": "success"
+  },
+  {
+    "name": "EP3 boundary 35",
+    "source": "def main():\n    var temperature: Int = 35\n    var threshold: Int = 30\n    print(\"Temperature:\", temperature)\n    if temperature < 0:\n        print(\"Status: INVALID\")\n    elif temperature >= threshold:\n        print(\"Status: WARNING\")\n    else:\n        print(\"Status: OK\")\n",
+    "expected": "Temperature: 35\nStatus: WARNING\n",
+    "exit": "success"
+  }
+]

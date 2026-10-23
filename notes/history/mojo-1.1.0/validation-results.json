@@ -1,0 +1,245 @@
+{
+  "version": "Mojo 1.1.0 (8189361e)",
+  "cases": [
+    {
+      "name": "EP1 step 1",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "Hello, Mojo!\n",
+      "stderr": ""
+    },
+    {
+      "name": "EP1 step 2",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "Hello, Mojo!\nDataset: demo-01\n",
+      "stderr": ""
+    },
+    {
+      "name": "EP1 step 3",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "Hello, Mojo!\nDataset: demo-01\nStatus: ready\n",
+      "stderr": ""
+    },
+    {
+      "name": "EP1 final",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "Hello, Mojo!\nDataset: demo-01\nStatus: ready\n",
+      "stderr": ""
+    },
+    {
+      "name": "EP1 intentional error",
+      "passed": true,
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "/tmp/mojo-course-check-3856caz_/case_4.mojo:2:5: error: use of unknown declaration 'Print'\n    Print(\"Hello, Mojo!\")\n    ^~~~~\n/mnt/c/Users/kopes/Documents/L/MOJO/.venv/bin/mojo: error: failed to parse the provided Mojo source module\n"
+    },
+    {
+      "name": "EP1 exercise 1",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "Hello, Mojo!\nDataset: demo-02\nStatus: waiting\n",
+      "stderr": ""
+    },
+    {
+      "name": "EP1 exercise 2",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "Hello, Mojo!\nDataset: demo-01\nStatus: ready\nAuthor: learner\n",
+      "stderr": ""
+    },
+    {
+      "name": "EP2 step 1",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "Samples: 3\n",
+      "stderr": ""
+    },
+    {
+      "name": "EP2 step 2",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "Before: 3\nAfter: 5\n",
+      "stderr": ""
+    },
+    {
+      "name": "EP2 step 3",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "Dataset: demo-01\nSamples: 3\nTemperature: 28.5\n",
+      "stderr": ""
+    },
+    {
+      "name": "EP2 final",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "Dataset: demo-01\nSamples: 3\nTemperature: 28.5\n",
+      "stderr": ""
+    },
+    {
+      "name": "EP2 intentional error",
+      "passed": true,
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "/tmp/mojo-course-check-3856caz_/case_11.mojo:4:20: error: cannot implicitly convert 'StringLiteral[\"three\"]' value to 'Int'\n    sample_count = \"three\"\n                   ^~~~~~~\n/mnt/c/Users/kopes/Documents/L/MOJO/.venv/bin/mojo: error: failed to parse the provided Mojo source module\n"
+    },
+    {
+      "name": "EP2 exercise 1",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "Before: 10\nAfter: 12\n",
+      "stderr": ""
+    },
+    {
+      "name": "EP2 exercise 2",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "Dataset: demo-02\nTemperature: 30.5\n",
+      "stderr": ""
+    },
+    {
+      "name": "EP3 step 1",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "First: 14\nSecond: 20\n",
+      "stderr": ""
+    },
+    {
+      "name": "EP3 step 2",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "Temperature: 30\nStatus: WARNING\n",
+      "stderr": ""
+    },
+    {
+      "name": "EP3 step 3",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "Temperature: 30\nStatus: WARNING\n",
+      "stderr": ""
+    },
+    {
+      "name": "EP3 final",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "Temperature: 30\nStatus: WARNING\n",
+      "stderr": ""
+    },
+    {
+      "name": "EP3 intentional error",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "Status: OK\n",
+      "stderr": ""
+    },
+    {
+      "name": "EP3 exercise 1",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "Temperature: -1\nStatus: INVALID\n",
+      "stderr": ""
+    },
+    {
+      "name": "EP3 exercise 2",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "Status: WARNING\n",
+      "stderr": ""
+    },
+    {
+      "name": "EP4 step 1",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "Total: 10\n",
+      "stderr": ""
+    },
+    {
+      "name": "EP4 step 2",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "Remaining: 3\nRemaining: 2\nRemaining: 1\nDone\n",
+      "stderr": ""
+    },
+    {
+      "name": "EP4 step 3",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "Value: 1\nValue: 2\nValue: 4\n",
+      "stderr": ""
+    },
+    {
+      "name": "EP4 final",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "Value: 1\nValue: 2\nValue: 4\n",
+      "stderr": ""
+    },
+    {
+      "name": "EP4 intentional error",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "Total: 6\n",
+      "stderr": ""
+    },
+    {
+      "name": "EP4 exercise 1",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "Total: 15\n",
+      "stderr": ""
+    },
+    {
+      "name": "EP4 exercise 2",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "Attempt: 1\nAttempt: 2\nAttempt: 3\n",
+      "stderr": ""
+    },
+    {
+      "name": "EP3 boundary -1",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "Temperature: -1\nStatus: INVALID\n",
+      "stderr": ""
+    },
+    {
+      "name": "EP3 boundary 0",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "Temperature: 0\nStatus: OK\n",
+      "stderr": ""
+    },
+    {
+      "name": "EP3 boundary 29",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "Temperature: 29\nStatus: OK\n",
+      "stderr": ""
+    },
+    {
+      "name": "EP3 boundary 30",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "Temperature: 30\nStatus: WARNING\n",
+      "stderr": ""
+    },
+    {
+      "name": "EP3 boundary 31",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "Temperature: 31\nStatus: WARNING\n",
+      "stderr": ""
+    },
+    {
+      "name": "EP3 boundary 35",
+      "passed": true,
+      "returncode": 0,
+      "stdout": "Temperature: 35\nStatus: WARNING\n",
+      "stderr": ""
+    }
+  ],
+  "passed": 34,
+  "total": 34
+}
